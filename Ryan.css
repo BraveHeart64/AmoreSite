@@ -1,0 +1,257 @@
+
+
+html,
+body{
+  position:absolute;
+  height:100%;
+  width:100%;
+  margin: 0%;
+  padding:0%;
+  overflow-x:hidden;
+}
+
+
+
+.CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 850px;
+
+
+}
+
+.col{
+
+  display:table-cell;
+}
+
+
+  .leftmenu{
+    position:relative;
+    text-align:center;
+    border-style: double;
+    height:900px;
+    background-color: lightgrey;
+    }
+
+
+
+
+ li{
+      border-style:solid;
+   }
+
+.footertab{
+	border:solid;
+  background-color: lightgreen;
+
+}
+
+
+.intro{
+  position:relative;
+  text-align:center;
+
+}
+
+
+
+.page_content{
+  position:relative;
+  padding-left: 120px;
+
+}
+
+.page_content2{
+  position:relative;
+  padding-left: 187px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1341px){
+
+   .CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 510px;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 1065px){
+
+   .CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 200px;
+
+}
+
+}
+
+@media screen and (max-width: 485px){
+
+   .CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 500px;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 1041px){
+
+   .CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 200px;
+
+}
+
+}
+
+
+
+.mobileapp{
+  padding-left: 25px;
+}
+
+
+.mobileIcon{
+  position:relative;
+ width:140px; 
+ height:140px;
+}
+
+
+
+
+/* Tablet mode max 600 680   250*/
+@media  screen and (max-width:  577px){
+  .CustomFooter{
+  position:relative;
+  padding-top: 60px;
+  padding-left: 100px;
+
+}
+
+
+.leftmenu{
+  position:relative;
+  height:216px;
+
+}
+
+
+  li{
+  	  border-style:solid;
+   }
+
+
+
+  .intro{
+    position:relative;
+    text-align:center;
+   }
+
+
+
+  .mobileIcon{
+    position:relative;
+    align-items: center;
+    width:300px;
+    height:300px;
+    margin-left:90px;
+  }
+
+
+.mobileapp{
+  margin-left: 180px;
+}
+    
+}
+
+
+@media screen and (min-width: 576px){
+
+.intro{
+  position:relative;
+  text-align:center;
+  padding-left: 10%;
+
+}
+
+
+.leftmenu{
+  position:static;
+  text-align:center;
+     border-style: double;
+     background-color: lightgrey;
+  padding-left:10px;
+  margin-top:-80px;
+  margin-bottom:0%;
+  width:40px;
+  height:900px;
+
+}
+
+.page_content{
+  position:relative;
+  padding-left: 100px;
+
+}
+
+}
+
+
+@media  screen and (min-width:  637px){
+
+  li{
+      border-style:none;
+   }
+
+
+
+
+  }
+
+
+
+@media  screen and (min-width:  576px){
+
+ .leftmenu{
+  position:relative;
+  height:210px;
+ 
+
+}
+
+li{
+      border-style:none;
+   }
+
+
+  }
+
+
+.blogcontent{
+  position:relative;
+  margin-left:40px;
+
+
+}
+
+
+
+
+

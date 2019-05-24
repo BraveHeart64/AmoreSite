@@ -1,0 +1,133 @@
+
+
+html,
+body{
+position:relative;
+margin: 0%;
+padding:0%;
+width:100%;
+height:100%;
+overflow-x:hidden;
+
+
+
+}
+
+
+.CustomFooter{
+  position:relative;
+  padding-top: 40px;
+  padding-left: 680px;
+
+}
+
+.footertab{
+	
+  background-color: lightgreen;
+}
+
+
+.intro{
+  position:relative;
+  text-align:center;
+  padding-left: 47%;
+
+}
+
+.leftmenu{
+  background-color: lightgrey;
+  
+
+}
+
+.page_content{
+  position:relative;
+  padding-left: 120px;
+
+}
+
+/* Tablet mode max 600 */
+@media  screen and (max-width:  680px){
+  .CustomFooter{
+  	  padding-left: 150px;
+  }
+
+  .leftmenu{
+     position:relative;
+     text-align:center;
+     border-style: double ;
+     background-color: lightgrey;
+    }
+
+  li{
+  	  border-style:solid;
+   }
+
+  .intro{
+    position:relative;
+    text-align:center;
+    padding-left: 10%;
+
+   }
+
+
+
+}
+
+
+@media  screen and (min-width:  637px){
+
+   .leftmenu{
+       background-color: transparent;
+       border-style:none;
+    }
+li{
+  	  border-style:none;
+   }
+
+
+  }
+
+
+
+
+
+ @media  screen and (min-width:  589px){
+
+   .leftmenu{
+       background-color: transparent;
+       border-style:none;
+    }
+li{
+  	  border-style:none;
+   }
+
+
+  }
+
+
+@media  screen and (max-width:  736px){
+  .CustomFooter{
+  	  padding-left: 150px;
+  }
+
+
+
+@media  screen and (max-width:  584px){
+  .CustomFooter{
+  	  padding-left: 150px;
+  }
+
+    .leftmenu{
+       background-color: lightgrey;
+      border-style: double ;
+    }
+li{
+  	    border-style:solid;
+   }
+
+
+}
+
+
+
